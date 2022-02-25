@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap");
+
+$font: "Poppins", sans-serif;
+$mColor: #0047bb;
+$sColor: #b80e2b;
+$tColor: #f3f3f3;
+
+.contact-form {
+  padding-left: 15%;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+  form {
+    display: flex;
+    flex-direction: column;
+    button {
+      font-size: 20px;
+      background-color: $sColor;
+      padding: 15px 30px;
+      border-radius: 10px;
+      color: #fff;
+      margin-top: 30px;
+
+      cursor: pointer;
+      &:hover {
+        background-color: #920d23;
+      }
+    }
+  }
+}
