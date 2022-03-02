@@ -26,7 +26,7 @@ const ImageSlider = ({ slides }) => {
       <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
       {slides.map((slide, index) => {
         return (
-          <div>
+          <div key={slide.id}>
             {index === current && <img src={slide.image} alt="reference" />}
           </div>
         );

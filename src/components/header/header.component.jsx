@@ -49,8 +49,8 @@ const Header = () => {
       <ul className={current ? "active" : "deactive"}>
         {links.map((link) => {
           return (
-            <li>
-              <a onClick={toggle} href={link.url} key={link.id}>
+            <li key={link.id}>
+              <a onClick={toggle} href={link.url}>
                 {link.text}
               </a>
             </li>

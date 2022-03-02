@@ -5,11 +5,10 @@ import emailjs from "@emailjs/browser";
 import "./contact-form.styles.scss";
 
 import FormInput from "../form-input/form-input.component";
-import CustomButton from "../custom-button/custom-button.component";
 import MessageSent from "../message-sent/message-sent.component";
 
 const ContactForm = () => {
-  const [current, toggleCurrent] = useState(false);
+  const [current, toggleCurrent] = useState(true);
 
   const toggleMessage = () => {
     console.log(current);
