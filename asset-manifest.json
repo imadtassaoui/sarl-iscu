@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sarl-iscu/static/css/main.88ef513e.css",
+    "main.js": "/sarl-iscu/static/js/main.c0fc38da.js",
+    "static/js/787.40e5dd44.chunk.js": "/sarl-iscu/static/js/787.40e5dd44.chunk.js",
+    "static/media/banner.jpg": "/sarl-iscu/static/media/banner.febac598a551b5859854.jpg",
+    "static/media/logo.png": "/sarl-iscu/static/media/logo.5733d2f170dfb51ace3d.png",
+    "static/media/about.jpg": "/sarl-iscu/static/media/about.3c7ddffdcc2d20f96515.jpg",
+    "static/media/twitter.svg": "/sarl-iscu/static/media/twitter.1a832bb1499d0209d4abab38a40a7e7c.svg",
+    "index.html": "/sarl-iscu/index.html",
+    "static/media/linkedin.svg": "/sarl-iscu/static/media/linkedin.35e825d0be9371fea9e555f8e3d7af86.svg",
+    "static/media/circles1.svg": "/sarl-iscu/static/media/circles1.6b302855197eb091cd9196a4d77241cc.svg",
+    "static/media/circles2.svg": "/sarl-iscu/static/media/circles2.9e1b1b281ec2a9c6ed8cdf4313905d60.svg",
+    "main.88ef513e.css.map": "/sarl-iscu/static/css/main.88ef513e.css.map",
+    "main.c0fc38da.js.map": "/sarl-iscu/static/js/main.c0fc38da.js.map",
+    "787.40e5dd44.chunk.js.map": "/sarl-iscu/static/js/787.40e5dd44.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88ef513e.css",
+    "static/js/main.c0fc38da.js"
+  ]
+}
