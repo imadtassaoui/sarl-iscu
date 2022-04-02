@@ -47,7 +47,6 @@ const ContactForm = () => {
               <FormInput label="Message" name="message" type="text" message />
               <button type="submit">Envoyer</button>
             </div>
-            <div className="button"></div>
           </form>
         </div>
       ) : (

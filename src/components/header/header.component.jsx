@@ -43,7 +43,9 @@ const Header = () => {
   };
   return (
     <div className="header">
-      <img src={logo} className="App-logo" alt="logo" />
+      <a href="#home">
+        <img src={logo} className="App-logo" alt="logo" />
+      </a>
       <GiHamburgerMenu className="ham" onClick={toggle} />
 
       <ul className={current ? "active" : "deactive"}>

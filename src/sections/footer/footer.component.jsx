@@ -16,22 +16,34 @@ const Footer = () => {
           <p>
             Ingenierie et services de construction <br /> d’univers
           </p>
-          <p>04 94 40 08 29</p>
         </section>
         <section>
-          <p>
-            Ingenierie et services de construction d’univers <br />
-            Ingenierie et services <br />
-            de construction d’univers
-          </p>
+          <p>Nº 54, Bd Marrakech, Etage 2, Bureau Nº 5, Khouribga</p>
+          <br />
+          <a href="tel:05 23 49 15 65">05 23 49 15 65</a>
         </section>
         <section>
-          <FaLinkedinIn className="li" />
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://www.linkedin.com/in/ayoub-outaghza-459665142/"
+          >
+            <FaLinkedinIn className="li" />
+          </a>
           <FaTwitter className="tw" />
         </section>
       </div>
       <div className="lower">
-        <p>© Site réalisé par Imad Tassaoui</p>
+        <p>
+          © 2022 Site réalisé par{" "}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.notamagency.com"
+          >
+            Notam Agency
+          </a>
+        </p>
       </div>
     </div>
   );

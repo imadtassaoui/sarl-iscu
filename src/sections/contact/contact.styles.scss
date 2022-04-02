@@ -13,6 +13,8 @@ $tColor: #f3f3f3;
   font-size: 1.2em;
   display: flex;
   position: relative;
+  width: 100%;
+  min-height: auto;
   .info {
     width: 40%;
     height: 95%;
@@ -24,11 +26,15 @@ $tColor: #f3f3f3;
       margin: 220px 15%;
       .cred {
         padding-top: 30px;
+        a {
+          color: #f3f3f3;
+          text-decoration: none;
+        }
         .icon {
           margin-right: 10px;
         }
         p {
-          padding-top: 10px;
+          padding-top: 20px;
         }
       }
     }
@@ -42,6 +48,10 @@ $tColor: #f3f3f3;
 }
 
 @media (max-width: 1000px) {
+  .form {
+    display: flex;
+    align-items: center;
+  }
   .contact {
     height: auto;
     flex-direction: column;
@@ -60,6 +70,7 @@ $tColor: #f3f3f3;
     }
     .form {
       width: 100%;
+      min-height: 100vh;
     }
   }
 }

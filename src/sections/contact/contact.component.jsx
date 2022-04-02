@@ -11,14 +11,16 @@ import "./contact.styles.scss";
 const Contact = () => {
   return (
     <div className="contact">
-      <SectionHeader white>Contact</SectionHeader>
       <div className="info">
+        <SectionHeader white>Contact</SectionHeader>
         <div className="text">
           <p>SOCIETE INGENIERIE ET SERVICES DE CONSTRUCTION D’UNIVERS </p>
           <div className="cred">
             <p>
-              <FaPhone className="icon" />
-              05 23 49 15 65
+              <a href="tel:05 23 49 15 65">
+                <FaPhone className="icon" />
+                05 23 49 15 65
+              </a>
             </p>
             <p>
               <IoMdMail className="icon" />

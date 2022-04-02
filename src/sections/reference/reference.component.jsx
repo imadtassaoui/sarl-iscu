@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
 
 import CustomButton from "../../components/custom-button/custom-button.component";
 import SectionHeader from "../../components/section-header/section-header.component";
@@ -11,6 +12,9 @@ import "./reference.styles.scss";
 import bg from "../../assets/circles1.svg";
 
 const Reference = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <div
       className="reference"
@@ -22,14 +26,14 @@ const Reference = () => {
     >
       <SectionHeader>Références</SectionHeader>
       <div className="container">
-        <div className="text">
+        <div className="text" data-aos="fade-up">
           <p>
-            La société BEGT vous propose ici quelques références de chantier de
+            La société ISCU vous propose ici quelques références de chantier de
             grande ampleur ou à valeur technique ajoutée.
           </p>
         </div>
-        <ImageSlider slides={sliderData} />
-        <div className="button">
+        <ImageSlider slides={sliderData} data-aos="fade-up" />
+        <div className="button" data-aos="fade-up">
           <a href="#contact">
             <CustomButton className="button"> Contactez-nous</CustomButton>
           </a>

@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import Aos from "aos";
 
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 
@@ -7,7 +8,9 @@ import "./image-slider.styles.scss";
 const ImageSlider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
-
+  useEffect(() => {
+    Aos.init({ duration: 500 });
+  }, []);
   const nextSlide = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);
   };
@@ -21,7 +24,7 @@ const ImageSlider = ({ slides }) => {
   }
 
   return (
-    <div className="image-slider">
+    <div className="image-slider" data-aos="fade-up">
       <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
       <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
       {slides.map((slide, index) => {
