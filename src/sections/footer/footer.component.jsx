@@ -26,11 +26,17 @@ const Footer = () => {
           <a
             rel="noreferrer"
             target="_blank"
-            href="https://www.linkedin.com/in/ayoub-outaghza-459665142/"
+            href="https://www.linkedin.com/company/ing%C3%A9nierie-et-services-de-construction-d-univers/"
           >
             <FaLinkedinIn className="li" />
           </a>
-          <FaTwitter className="tw" />
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://twitter.com/iscu_sarl"
+          >
+            <FaTwitter className="tw" />
+          </a>
         </section>
       </div>
       <div className="lower">

@@ -43,7 +43,7 @@ const Header = () => {
   };
   return (
     <div className="header">
-      <a href="#home">
+      <a className="logo" href="#home">
         <img src={logo} className="App-logo" alt="logo" />
       </a>
       <GiHamburgerMenu className="ham" onClick={toggle} />
@@ -51,11 +51,9 @@ const Header = () => {
       <ul className={current ? "active" : "deactive"}>
         {links.map((link) => {
           return (
-            <li key={link.id}>
-              <a onClick={toggle} href={link.url}>
-                {link.text}
-              </a>
-            </li>
+            <a onClick={toggle} href={link.url}>
+              <li key={link.id}>{link.text}</li>
+            </a>
           );
         })}
       </ul>

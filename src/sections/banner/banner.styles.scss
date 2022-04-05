@@ -19,13 +19,19 @@ $sColor: #b80e2b;
   font-family: $font;
   width: 100%;
   gap: 20px;
+
   h1 {
     text-align: center;
     line-height: 100%;
-    padding: 5%;
+    padding: 20px;
   }
   a {
     text-decoration: none;
     color: #fff;
+  }
+}
+@media (max-width: 1000px) {
+  .banner {
+    gap: 20px;
   }
 }

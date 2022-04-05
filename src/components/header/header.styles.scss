@@ -17,7 +17,7 @@ $sColor: #b80e2b;
   width: 100vw;
   background-color: #fff;
   z-index: 6;
-  a {
+  .logo {
     margin: 0 5%;
     img {
       height: 60px;
@@ -34,27 +34,27 @@ $sColor: #b80e2b;
     display: flex;
     height: 100%;
     align-items: center;
-    width: 100%;
-    li {
+    margin: 0 5%;
+
+    a {
       height: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
-      a {
-        text-decoration: none;
+      color: $mColor;
+      text-decoration: none;
+      li {
         text-align: center;
         transition: ease-in 0.2s;
         font-style: none;
-        color: $mColor;
         padding: 0 25px;
-        height: 100%;
         width: 100%;
         margin: 0;
-        &:hover {
-          color: #fff;
-          background-color: $mColor;
-          transition: ease-in 0.2s;
-        }
+      }
+      &:hover {
+        color: #fff;
+        background-color: $mColor;
+        transition: ease-in 0.2s;
       }
     }
   }
@@ -63,23 +63,26 @@ $sColor: #b80e2b;
 @media (max-width: 1000px) {
   .header {
     width: 100%;
-    .ham {
+    height: 60px;
+    min-mar .ham {
       display: block;
     }
     .deactive {
       display: none;
     }
+    .ham {
+      display: flex;
+    }
     .active {
-      margin-top: 8vh;
       width: 100vw;
       height: 92vh;
       position: absolute;
       left: 0;
       flex-direction: column;
       background-color: $mColor;
-      opacity: 0.9;
       top: 0;
-      li {
+      margin: 60px 0;
+      a {
         width: 100%;
         text-align: center;
         height: 100%;
@@ -87,8 +90,8 @@ $sColor: #b80e2b;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
-        a {
+        border: #fff solid 0.25px;
+        li {
           color: #fff;
           width: 100%;
           text-align: center;

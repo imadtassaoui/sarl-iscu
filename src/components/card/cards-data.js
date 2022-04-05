@@ -2,7 +2,7 @@ export const cards = [
   {
     id: "1",
     paragraph:
-      "La société ingénierie et services de construction est un bureau d’études structuré qui traite des problématiques de bâtiment et de génie civil. Nous menons les études de structures, en proposant des modélisation BIM.  Les études d’ingénierie en structure sont menées tant en conception (maîtrise d’œuvre), qu’en exécution (documents d’exécution).  Nos missions d’ingénierie s’étalent depuis les études de faisabilité jusqu’aux plans de détail. Le bureau d’études prend en charge les études concernant les bâtiments ainsi que les ouvrages de génie civil.",
+      "La société ingénierie et services de construction est un \nbureau d’études structuré qui traite des problématiques de bâtiment et de génie civil. Nous menons les études de structures, en proposant des modélisation BIM.  Les études d’ingénierie en structure sont menées tant en conception (maîtrise d’œuvre), qu’en exécution (documents d’exécution).  Nos missions d’ingénierie s’étalent depuis les études de faisabilité jusqu’aux plans de détail. Le bureau d’études prend en charge les études concernant les bâtiments ainsi que les ouvrages de génie civil.",
     imageUrl:
       "https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
   },
